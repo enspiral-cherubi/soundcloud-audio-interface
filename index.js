@@ -11,7 +11,11 @@ class SoundcloudAudioInterface {
 
   setUrl (url) {
     var resolveUrl = 'https://api.soundcloud.com/resolve.json?url=' + url + '&client_id=' + this.clientId
-    return http.get(resolveUrl).then((res) => {
+    return http.request({
+      method: 'GET',
+      url: resolveUrl,
+      withCredentials: false
+    }).then((res) => {
       var streamUrl = res.stream_url + '?client_id=' + this.clientId
       if (this.audio) { this.audio.pause() }
       this.audio = new Audio(streamUrl)
