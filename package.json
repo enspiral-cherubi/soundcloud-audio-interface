@@ -1,0 +1,29 @@
+{
+  "name": "soundcloud-audio-interface",
+  "version": "1.0.0",
+  "description": "provides an HTMLAudioElement and a MediaElementAudioSourceNode for a soundcloud track, given a url and a client id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enspiral-cherubi/soundcloud-audio-interface.git"
+  },
+  "keywords": [
+    "soundcloud",
+    "web",
+    "audio",
+    "HTMLAudioElement",
+    "MediaElementAudioSourceNode"
+  ],
+  "author": "data-doge <eugene@enspiral.com> (http://fuckafucka.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enspiral-cherubi/soundcloud-audio-interface/issues"
+  },
+  "homepage": "https://github.com/enspiral-cherubi/soundcloud-audio-interface#readme",
+  "dependencies": {
+    "request-promise-json": "^1.0.4"
+  }
+}
