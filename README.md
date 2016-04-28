@@ -27,5 +27,3 @@ scAudioInterface.setUrl(url)
     console.log('failed with error: ', reason)
   })
 ```
-
-![from imgur](http://i.imgur.com/lE8RmHM.gif)
